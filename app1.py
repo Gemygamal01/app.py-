@@ -4,7 +4,7 @@ st.set_page_config(page_title="حاسبة المعدل التراكمي (CGPA)",
 st.title("📚 حاسبة المعدل التراكمي (CGPA)")
 st.markdown("أدخل عدد الساعات و GPA لكل مادة وسيتم حساب المعدل التراكمي.")
 
-num_courses = st.number_input("عدد المواد", min_value=1, max_value=50, step=1, value=3)
+num_courses = st.number_input("عدد المواد", min_value=1, max_value=100, step=1, value=3)
 total_points = 0.0
 total_hours = 0.0
 
